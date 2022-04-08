@@ -58,10 +58,31 @@ sudo bash -c "echo 1 > /proc/sys/fs/binfmt_misc/status" # Enable WSL support for
 
   1  make install DESTDIR=/mnt/c/workspace/bitcoin
   
+// PROCEDEREMOS A LA VERIFICACIÓN SI BITCOIN SE COMPILO DE LA MANERA CORRECTA. AL VERIFICAR SI TENEMOS EL ARCHIVO BITCOIND.EXE Y BITCOIN.CLI.EXE.
+   EJECUTAREMOS LO SIGUIENTE:
+   
+// cd para regresar al directorio principal; cd bitcoin/src para ingresar al directorio src donde se encontraran los archivos.
+   ls para ver el contenido de un directorio.
+  
+  1 cd 
+  2 cd bitcoin/src
+  3 ls
+  
+//luego de ellos buscaremos 2 archivos en color verde bitcoind.exe y bitcoin-cli.exe verificamos si los tenemos.
+  y pondremos lo siguiente en la terminal:
+  
+  1 ./bitcoind.exe
+  2 ./bitcoin-cli.exe
+  
+//procederemos a ejecutar para verificarlos y si no hay algun error la compilación a sido exitosa!!
+   
+  
 // AL TERMINAR DE EJECUTAR LO ANTERIOR YA TENDREMOS COMPILADO BITCOIN EN NUESTRA PC.
   
   
+doc/build-windows.md
 
+depends/README.md
 
 
 
