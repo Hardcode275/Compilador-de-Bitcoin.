@@ -1,12 +1,13 @@
 //al comenzar procederemos a la instalacion de WSL de linux
 
-## en nuestra pc procederemos a ejecutar el comando de windows + r, escribiremos powershell y ejecutaremos el siguiente comando en la terminal.
+##  EN NUESTRA PC PROCEDEREMOS A EJECUTAR EL COMANDO DE WINDOWS + R, ESCRIBIREMOS POWERSHELL Y EJECUTAREMOS EL SIGUIENTE COMANDO EN LA TERMINAL.
 
 ```python
     wsl --install
 ```
+// AL EJECUTAR ESE COMANDO SE INSTALARA WSL, LUEGO DE ELLO PROCEDEREMOS A BUSCAR EN MICROSOFT STORE "UBUNTU 20.04.4 LTS" Y PROCEDEREMOS A SU DESCARGA.
 
-```python
-    address = self.nodes[0].getnewaddress()
-    pubkey = self.nodes[0].getaddressinfo(address)['pubkey']
-```
+
+<pre tabindex="0" class="has-inner-focus"><code class="lang-powershell" data-author-content="wsl --install
+"><span>wsl<span class="hljs-parameter"> --install</span>
+</span></code></pre>
