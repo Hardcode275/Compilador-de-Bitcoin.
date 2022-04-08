@@ -7,7 +7,16 @@
 ```
 // AL EJECUTAR ESE COMANDO SE INSTALARA WSL, LUEGO DE ELLO PROCEDEREMOS A BUSCAR EN MICROSOFT STORE "UBUNTU 20.04.4 LTS" Y PROCEDEREMOS A SU DESCARGA.
 
+//ABRIMOS UBUNTU Y PROCEDEREMOS A CREAR UNA SESIÓN; YA DENTRO PROCEDEREMOS AL INICIO DE LA COMPILACIÓN DE BITCOIN. 
 
-<pre tabindex="0" class="has-inner-focus"><code class="lang-powershell" data-author-content="wsl --install
-"><span>wsl<span class="hljs-parameter"> --install</span>
-</span></code></pre>
+SE COPIARA LO SIGUIENTE:
+
+ sudo apt update
+    sudo apt upgrade
+    sudo apt install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl git
+
+
+
+
+
+
