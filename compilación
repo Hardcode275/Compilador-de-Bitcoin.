@@ -3,6 +3,6 @@
 //en nuestra pc procederemos a ejecutar el comando de windows + r, escribiremos powershell y ejecutaremos el siguiente comando en la terminal.
 
 ```python
-wsl --install
+    wsl --install
 ```
 
