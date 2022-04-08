@@ -80,10 +80,11 @@ sudo bash -c "echo 1 > /proc/sys/fs/binfmt_misc/status" # Enable WSL support for
 // AL TERMINAR DE EJECUTAR LO ANTERIOR YA TENDREMOS COMPILADO BITCOIN EN NUESTRA PC.
   
   
-doc/build-windows.md
+// para obtener mas información consultar los siguientes enlaces 
 
-depends/README.md
+https://github.com/bitcoin/bitcoin/blob/master/depends/README.md
 
+https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md#cross-compilation-for-ubuntu-and-windows-subsystem-for-linux
 
 
 
