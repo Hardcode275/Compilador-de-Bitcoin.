@@ -2,18 +2,31 @@
 
 ##  EN NUESTRA PC PROCEDEREMOS A EJECUTAR EL COMANDO DE WINDOWS + R, ESCRIBIREMOS POWERSHELL Y EJECUTAREMOS EL SIGUIENTE COMANDO EN LA TERMINAL.
 
-```python
-    wsl --install
-```
+
+  1  wsl --install
+
 // AL EJECUTAR ESE COMANDO SE INSTALARA WSL, LUEGO DE ELLO PROCEDEREMOS A BUSCAR EN MICROSOFT STORE "UBUNTU 20.04.4 LTS" Y PROCEDEREMOS A SU DESCARGA.
 
 //ABRIMOS UBUNTU Y PROCEDEREMOS A CREAR UNA SESIÓN; YA DENTRO PROCEDEREMOS AL INICIO DE LA COMPILACIÓN DE BITCOIN. 
 
-SE COPIARA LO SIGUIENTE:
+SE COPIARA LO SIGUIENTE UNO POR UNO EN LA TERMINAL.
 
- sudo apt update
-    sudo apt upgrade
-    sudo apt install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl git
+  1  sudo apt update
+  2  sudo apt upgrade
+  3  sudo apt install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl git
+
+//DONDE SE DARA LA INSTALACION DE LAS DEPENDENCIAS GENERALES.
+
+A CONTINUACION NECESITAMOS EL COMPILADOR DE WINDOWS NSIS. PARA ELLO NECESITAMOS EJECUTAR LO SIGUIENTE EN LA TERMINAL.
+
+  1   sudo apt install nsis
+  
+  // AHORA SE ADQUIRIRA LA FUENTE DE FORMA HABITUAL. AL EJECUTAR LO SIGUIENTE EN LA TERMINAL.
+  
+  1   git clone https://github.com/bitcoin/bitcoin.git
+  2   cd bitcoin
+  
+  
 
 
 
