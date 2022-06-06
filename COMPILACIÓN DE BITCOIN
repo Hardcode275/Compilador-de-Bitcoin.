@@ -92,5 +92,9 @@ https://github.com/bitcoin/bitcoin/blob/master/depends/README.md
 https://github.com/bitcoin/bitcoin/blob/master/doc/build-windows.md#cross-compilation-for-ubuntu-and-windows-subsystem-for-linux
 
 
+sudo -e /etc/needrestart/needrestart.conf
+Descomente y cambie las siguientes configuraciones:
 
+$nrconf{kernelhints} = 0;
+$nrconf{ucodehints} = 0;
 
